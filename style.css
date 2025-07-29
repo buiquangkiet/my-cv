@@ -1,0 +1,70 @@
+*{
+    margin: 10px;
+
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.name-candiate{
+    /* background-color: black; */
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 150px;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.info i {
+  margin-right: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #aaa;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.intrdouce{
+    display: flex;
+    justify-content: center;
+}
+
+.decs{
+    display: flex;
+    max-height: 1000px;
+}
+
+.left-decs{
+    background-color: rgb(227, 232, 232);
+    flex: 0.5;
+}
+
+.divider {
+    width: 2px;
+    height: 1000px;
+    background-color:  #aaa;
+    margin: 0 10px;
+}
+
+.right-decs{
+    background-color:rgb(227, 232, 232);
+    flex: 1;
+}
